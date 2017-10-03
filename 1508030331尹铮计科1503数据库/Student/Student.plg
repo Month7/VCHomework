@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Student - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Student.res" /d "_DEBUG" "C:\Users\Lenovo\Desktop\mfc作业\备份\Student\Student.rc"" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8376.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Student.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\MainFrm.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\Score.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\SCORE_UP_Dialog.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\ScoreInputDlg.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\ScoreSet.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\SEARCH.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\Student.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StudentDlg.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StudentDoc.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StudentInfoDlg.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StudentSet1.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StudentView.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\UserDlg.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\UserLogin.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\UserSet2.cpp"
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\WriterDialog.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8376.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8377.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Student.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\mfc作业\备份\Student\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8377.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8378.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Student.pdb" /debug /machine:I386 /out:"Debug/Student.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\Score.obj"
+".\Debug\SCORE_UP_Dialog.obj"
+".\Debug\ScoreInputDlg.obj"
+".\Debug\ScoreSet.obj"
+".\Debug\SEARCH.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Student.obj"
+".\Debug\StudentDlg.obj"
+".\Debug\StudentDoc.obj"
+".\Debug\StudentInfoDlg.obj"
+".\Debug\StudentSet1.obj"
+".\Debug\StudentView.obj"
+".\Debug\UserDlg.obj"
+".\Debug\UserLogin.obj"
+".\Debug\UserSet2.obj"
+".\Debug\WriterDialog.obj"
+".\Debug\Student.res"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8378.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Score.cpp
+SCORE_UP_Dialog.cpp
+ScoreInputDlg.cpp
+ScoreSet.cpp
+SEARCH.cpp
+Student.cpp
+StudentDlg.cpp
+StudentDoc.cpp
+StudentInfoDlg.cpp
+StudentSet1.cpp
+StudentView.cpp
+UserDlg.cpp
+UserLogin.cpp
+UserSet2.cpp
+WriterDialog.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Student.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

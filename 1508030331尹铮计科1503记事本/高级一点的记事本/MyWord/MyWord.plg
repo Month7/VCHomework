@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyWord - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyWord.res" /d "_DEBUG" "C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MyWord.rc"" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPCBA0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/MyWord.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\CntrItem.cpp"
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MainFrm.cpp"
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MyWord.cpp"
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MyWordDoc.cpp"
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MyWordView.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPCBA0.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPCBA1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/MyWord.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPCBA1.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPCBA2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyWord.pdb" /debug /machine:I386 /out:"Debug/MyWord.exe" /pdbtype:sept 
+".\Debug\CntrItem.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyWord.obj"
+".\Debug\MyWordDoc.obj"
+".\Debug\MyWordView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyWord.res"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPCBA2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CntrItem.cpp
+MainFrm.cpp
+MyWord.cpp
+MyWordDoc.cpp
+MyWordView.cpp
+Generating Code...
+C:\Users\Lenovo\Desktop\记事本作业\高级一点的记事本\MyWord\MyWordView.cpp(212) : warning C4700: local variable 'hWnd' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+MyWord.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
